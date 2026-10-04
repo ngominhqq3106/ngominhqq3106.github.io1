@@ -50,7 +50,7 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
           transition={{ duration: 0.8 }}
           className="max-w-3xl mb-16 sm:mb-20 space-y-4"
         >
-          <div className="flex items-center gap-2.5 text-xs sm:text-sm text-amber-300 font-medium font-serif">
+          <div className="flex items-center gap-2.5 text-sm sm:text-base text-amber-300 font-medium font-serif">
             <span>Chapter 02</span>
             <span aria-hidden="true">·</span>
             <span>Identity & Career Philosophy</span>
@@ -60,7 +60,7 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
           <h2 className="text-3xl sm:text-5xl lg:text-6xl font-bold font-serif-garden text-white tracking-tight leading-tight">
             Deep Roots Endure, Expansive Canopies Flourish
           </h2>
-          <p className="text-emerald-200/80 text-base sm:text-lg leading-relaxed pt-2">
+          <p className="text-emerald-200/80 text-lg sm:text-xl leading-relaxed pt-2">
             In a volatile financial ecosystem, I believe risk governance is not about timid hesitation — it is the fine art of anchoring deep roots so capital can fearlessly absorb the torrential rains of market opportunity.
           </p>
         </motion.div>
@@ -75,19 +75,19 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
         >
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
             <div className="lg:col-span-8 space-y-6">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-950/80 border border-amber-400/50 text-xs sm:text-sm text-amber-300 font-serif">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-950/80 border border-amber-400/50 text-sm sm:text-base text-amber-300 font-serif">
                 <Target className="w-4 h-4 text-amber-400" />
                 <span>❧ Core Career Objective ☙</span>
               </div>
               <blockquote className="text-xl sm:text-2xl lg:text-3xl font-serif-garden text-emerald-100 italic leading-relaxed py-2">
                 "{CANDIDATE_INFO.objective}"
               </blockquote>
-              <p className="text-sm sm:text-base text-emerald-300/90 leading-loose max-w-3xl">
+           <p className="text-base sm:text-lg text-emerald-300/90 leading-loose max-w-3xl">
                 Dedicated to distilling dense, unstructured datasets into transparent quantitative models — empowering institutional organizations to optimize yields while erecting robust capital protection buffers.
               </p>
             </div>
 
-            <div className="lg:col-span-4 p-6 sm:p-8 rounded-2xl bg-emerald-950/80 border border-amber-400/40 text-xs sm:text-sm space-y-4 shadow-inner">
+            <div className="lg:col-span-4 p-6 sm:p-8 rounded-2xl bg-emerald-950/80 border border-amber-400/40 text-sm sm:text-base space-y-4 shadow-inner"
               <div className="font-semibold text-amber-200 flex items-center gap-2 pb-3 border-b border-emerald-800/60 font-serif text-sm sm:text-base">
                 <Compass className="w-4 h-4 text-amber-300" />
                 Three Guiding Principles
