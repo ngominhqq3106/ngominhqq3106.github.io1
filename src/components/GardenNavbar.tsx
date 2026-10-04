@@ -83,21 +83,21 @@ export const GardenNavbar: React.FC<GardenNavbarProps> = ({
           : 'opacity-0 -translate-y-full pointer-events-none'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
+      <div className="max-w-[1600px] mx-auto px-6 sm:px-10 lg:px- flex items-center justify-between">
         {/* Monogram Brand */}
         <a
           href="#hero"
           className="flex items-center gap-2.5 text-emerald-100 hover:text-emerald-300 transition-colors group"
         >
-          <div className="w-8 h-8 rounded-full bg-emerald-900/80 border border-emerald-500/40 flex items-center justify-center text-xs font-serif font-bold text-emerald-300 shadow-inner group-hover:scale-105 transition-transform">
+          <div className="w-8 h-8 rounded-full bg-emerald-900/80 border border-emerald-500/40 flex items-center justify-center text- font-serif font-bold text-emerald-300 shadow-inner group-hover:scale-105 transition-transform">
             NMP
           </div>
           <div>
-            <div className="text-sm font-semibold tracking-wide flex items-center gap-1.5">
+            <div className="text-base sm:text-lg font-semibold tracking-wide flex items-center gap-1.5">
               <span>{CANDIDATE_INFO.fullName}</span>
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
             </div>
-            <p className="text-[10px] text-emerald-400/80 font-normal">
+            <p className="text-xs sm:text-sm text-emerald-400/80 font-normal">
               FTU International Finance · The Secret Garden
             </p>
           </div>
@@ -111,7 +111,7 @@ export const GardenNavbar: React.FC<GardenNavbarProps> = ({
               <a
                 key={item.id}
                 href={`#${item.id}`}
-                className={`px-2.5 py-1 text-xs tracking-wide transition-all relative ${
+                className={`px-4 py-2 text-sm lg:text- tracking-wide transition-all relative ${
                   isActive
                     ? 'text-emerald-300 font-semibold'
                     : 'text-emerald-200/70 hover:text-emerald-100'
@@ -134,7 +134,7 @@ export const GardenNavbar: React.FC<GardenNavbarProps> = ({
         <div className="flex items-center gap-2 sm:gap-3">
           {/* Garden Secret Progress */}
           <div
-            className="hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-950/70 border border-emerald-800/50 text-[11px] text-emerald-300"
+            className="hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-950/70 border border-emerald-800/50 text- text-emerald-300"
             title="Secrets discovered in the garden"
           >
             <Sparkles className="w-3 h-3 text-amber-300" />
