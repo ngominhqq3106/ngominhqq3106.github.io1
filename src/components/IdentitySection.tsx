@@ -48,7 +48,7 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="max-w-5xl mb-16 sm:mb-24 space-y-"
+          className="max-w-5xl mb-16 sm:mb-24 space-y-6"
         >
           <div className="flex items-center gap-2.5 text-sm sm:text-base text-amber-300 font-medium font-serif">
             <span>Chapter 02</span>
@@ -73,7 +73,7 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
           transition={{ duration: 0.8, delay: 0.1 }}
           className="shape-leaf-card p-8 sm:p-14 lg:p-20 mb-24"
         >
-          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-">
+          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
             <div className="lg:col-span-8 space-y-8">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-950/80 border border-amber-400/50 text-sm sm:text-base text-amber-300 font-serif">
                 <Target className="w-4 h-4 text-amber-400" />
@@ -82,17 +82,17 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
               <blockquote className="text-xl sm:text-2xl lg:text-3xl font-serif-garden text-emerald-100 italic leading-relaxed py-2">
                 "{CANDIDATE_INFO.objective}"
               </blockquote>
-           <p className="text-base sm:text-lg text-emerald-300/90 leading-loose max-w-3xl">
+           <p className="text-base sm:text-lg text-emerald-300/90 leading-loose max-w-4xl">
                 Dedicated to distilling dense, unstructured datasets into transparent quantitative models — empowering institutional organizations to optimize yields while erecting robust capital protection buffers.
               </p>
             </div>
 
-            <div className="lg:col-span-4 p-8 sm:p-10 rounded-2xl bg-emerald-950/80 border border-amber-400/40 text-sm sm:text-base space-y-4 shadow-inner">
-              <div className="font-semibold text-amber-200 flex items-center gap-2 pb-3 border-b border-emerald-800/60 font-serif text-sm sm:text-base">
+            <div className="lg:col-span-4 p-10 sm:p-12 lg:p-14 rounded-2xl bg-emerald-950/80 border border-amber-400/40 text-base sm:text-lg space-y-6 shadow-inner">
+              <div className="font-semibold text-amber-200 flex items-center gap-3 pb-4 border-b border-emerald-800/60 font-serif text-lg sm:text-xl">
                 <Compass className="w-4 h-4 text-amber-300" />
                 Three Guiding Principles
               </div>
-              <div className="space-y-3.5 text-emerald-200/90 leading-relaxed">
+              <div className="space-y-5 text-emerald-200/90 text-base sm: text - lg leading-lóoe">
                 <div className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
                   <span><strong>Absolute Precision:</strong> Data is the most candid dialect of financial value.</span>
