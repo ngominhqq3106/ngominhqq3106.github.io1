@@ -1,0 +1,6 @@
+{
+  "name": "The Secret Garden - Pham Ngoc Minh Portfolio",
+  "description": "Interactive Secret Garden & Morning Dew portfolio of Pham Ngoc Minh - Finance Intern at Foreign Trade University (FTU)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
