@@ -40,7 +40,7 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
 
   return (
     <section id="identity" className="relative py-28 sm:py-36 border-t border-emerald-900/40 bg-[#07130d]/85">
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-12">
+      <div className="max-w-[1600px] mx-auto px-6 sm:px-10 lg:px-16">
         
         {/* Editorial Header with Generous Whitespace */}
         <motion.div
@@ -48,7 +48,7 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="max-w-3xl mb-16 sm:mb-20 space-y-4"
+          className="max-w-5xl mb-16 sm:mb-24 space-y-"
         >
           <div className="flex items-center gap-2.5 text-sm sm:text-base text-amber-300 font-medium font-serif">
             <span>Chapter 02</span>
@@ -71,10 +71,10 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="shape-leaf-card p-8 sm:p-12 lg:p-16 mb-20"
+          className="shape-leaf-card p-8 sm:p-14 lg:p-20 mb-24"
         >
-          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
-            <div className="lg:col-span-8 space-y-6">
+          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-">
+            <div className="lg:col-span-8 space-y-8">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-950/80 border border-amber-400/50 text-sm sm:text-base text-amber-300 font-serif">
                 <Target className="w-4 h-4 text-amber-400" />
                 <span>❧ Core Career Objective ☙</span>
@@ -87,7 +87,7 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
               </p>
             </div>
 
-            <div className="lg:col-span-4 p-6 sm:p-8 rounded-2xl bg-emerald-950/80 border border-amber-400/40 text-sm sm:text-base space-y-4 shadow-inner">
+            <div className="lg:col-span-4 p-8 sm:p-10 rounded-2xl bg-emerald-950/80 border border-amber-400/40 text-sm sm:text-base space-y-4 shadow-inner">
               <div className="font-semibold text-amber-200 flex items-center gap-2 pb-3 border-b border-emerald-800/60 font-serif text-sm sm:text-base">
                 <Compass className="w-4 h-4 text-amber-300" />
                 Three Guiding Principles
