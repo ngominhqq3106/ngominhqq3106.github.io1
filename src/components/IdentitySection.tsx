@@ -87,7 +87,7 @@ export const IdentitySection: React.FC<IdentitySectionProps> = ({
               </p>
             </div>
 
-            <div className="lg:col-span-4 p-6 sm:p-8 rounded-2xl bg-emerald-950/80 border border-amber-400/40 text-sm sm:text-base space-y-4 shadow-inner"
+            <div className="lg:col-span-4 p-6 sm:p-8 rounded-2xl bg-emerald-950/80 border border-amber-400/40 text-sm sm:text-base space-y-4 shadow-inner">
               <div className="font-semibold text-amber-200 flex items-center gap-2 pb-3 border-b border-emerald-800/60 font-serif text-sm sm:text-base">
                 <Compass className="w-4 h-4 text-amber-300" />
                 Three Guiding Principles
